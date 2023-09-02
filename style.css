@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    height: 70px;
+    /* background-color: gray; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.brand-name{
+    margin-left: 5%;
+}
+
+
+.navbar-links {
+    display: flex;
+    /* width: fit-content; */
+    font-size: large;
+    /* align-items: center; */
+}
+ .nav-button{
+    /* list-style: none; */
+    padding: 15px;
+    /* margin: 15%; */
+    /* width: auto; */
+    font-weight: bold;
+}
+
+.hero-section{
+    /* height: 50px; */
+    /* border: solid 1px black; */
+
+    height: 600px;
+    width: 100%;
+
+    /* height=600px;
+     width="100%" */
+}
+
+
+.se-hero-section{
+
+
+}
+
+.first-img{
+margin-top: 2%;
+display: flex;
+justify-content: space-between;
+/* width: fit-content; */
+/* width: 80%; */
+}
+
+.img{
+   /* width: inherit; */
+   /* border: solid 2px green; */
+   
+}
+
+
+/* *******************************
+
+THIRD HERO SECTION START FROM HERE    */
+
+
+.third-hero-section{
+    margin-top: 2%;
+    background-color: rgb(205, 190, 190);
+    padding-left:7%;
+    padding-right:7%;
+    padding-bottom: 5%;
+}
+
+.third-content-box{
+    /* border: solid 2px black; */
+    /* height: 500px; */
+}
+
+.name{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sec-img{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px red; */
+
+    margin-bottom: 10%;
+}
+
+/* .text{
+  justify-content: space-between;
+}
+
+.img2{
+  
+} */
+
+
+/* *************** THIRD IMAGE BOX START FROM HERE***** */
+
+.third-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    font-size: large;
+}
+
+
+/* ****************************FORTH IMAGE BOX START FROM HERE********************* */
+
+.forth-img{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10%; */
+
+}
+
+
+
+/* ********************************FOOTER START FROM HERE***************************************** */
+
+/* footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+
+} */
+
+.footer-navbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+   
+
+}
+
+
+.brand-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.first-line-footer,li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+}
+
+.secound-line-footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.copy-right-line{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
